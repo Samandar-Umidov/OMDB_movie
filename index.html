@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Find your favorite movies</h1>
+    <div class="wrapper">
+      <form class="js-form">
+    
+        <input class="js-input" type="search" name="user-search" placeholder="Search movie..." required>
+        <select class="js-select" name="type" id="type">
+          <option selected hidden value="null">Select type</option>
+          <option value="movie">movie</option>
+          <option value="series">series</option>
+          <option value="episode">episode</option>
+        </select>
+        <button class="serch-btn" type="submit">Search</button>
+      </form>
+      
+    </div>
+    <ul class="js-list">
+  
+    </ul>
+  </div>
+
+<script src="/js/bootstrap.min.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
